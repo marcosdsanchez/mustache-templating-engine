@@ -1,0 +1,22 @@
+{
+    "name": "marcosdsanchez/mustache-templating-engine",
+    "description": "Mustache templating engine for symfony/templating",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "symfony/templating": "^5.0",
+        "mustache/mustache": "^2.13"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Sánchez",
+            "email": "mail@marcosdsanchez.com.ar"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MustacheTemplatingEngine\\": "src/MustacheTemplatingEngine/"
+        }
+    }
+}
